@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: silver;
+    align-items: center;
+    padding: 50px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+
+header .marcado {
+    margin-right: 50px;
+}
+
+.logo_pagina {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.logo_pagina .icono {
+    font-size: 25px;
+    color: #e0940c;
+}
+
+
+.logo_pagina label {
+    font-size: 8px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+/* PRIMER SECCION */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 10px 15px 10px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button.marcado {
+    background-color: black;
+    color: white;
+}
+
+.hero {
+    background-color: white;
+    display: flex;
+    padding-left: 50px;
+    height: 70vh;
+    align-items: center;
+}
+
+.lado_izquierdo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.fila {
+    margin-bottom: 30px;
+}
+
+.fila:first-child {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    font-family: Roboto;
+    line-height: 20px;
+}
+
+.lado_izquierdo h1 {
+    /*font-family: Roboto;*/
+    font-family: sans-serif;
+    font-size: 45px;
+}
+
+.lado_izquierdo h2 {
+    font-family: Dancing Script;
+    font-size: 45px;
+    margin-right: 20px;
+}
+
+.imagen_primera_fila {
+    width: 50px;
+    height: 30px;
+    /* 0px horizontal  - 3px vertical - 7px difuminado */
+    box-shadow: 0px 3px 7px silver;
+}
+
+.logos_lado_izquierdo {
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 5px;
+}
+
+.logos_lado_izquierdo .logos {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.logos img {
+    width: 25px;
+    padding-right: 5px;
+}
+
+.lado_derecho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.lado_derecho img {
+    width: 500px;
+}
+
+.imagenFlechas {
+    display: flex;
+    position: absolute;
+    left: 0px;
+    bottom: 330px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.imagenFlechas img {
+    height: 60px;
+}
+
+/* FIN PRIMERA SECCION */
+
+
+/* SEGUNDA SECCION */
+.segundaSeccion {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #3e404d;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.segundaSeccion .contenedorImagen {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    border-right: 1px solid silver;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .segundaSeccion .contenedorImagen img {
+    width: 150px;
+    height: 50px;
+} */
+
+.contenedorImagen:last-child {
+    border-right: 0px;
+}
+
+img.logo_samsung {
+    width: 190px;
+    height: 30px;
+}
+
+.logo_facebook {
+    width: 250px;
+    height: 60px;
+}
+
+.logo_google {
+    width: 140px;
+    height: 60px;
+}
+
+.logo_amazon {
+    width: 200px;
+    height: 50px;
+}
+
+/* FIN SEGUNDA SECCION */
