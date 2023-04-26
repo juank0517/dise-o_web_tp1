@@ -220,3 +220,9 @@ img.logo_samsung {
 }
 
 /* FIN SEGUNDA SECCION */
+
+
+button:hover {
+    box-shadow: 0px 3px 7px silver;
+    cursor: pointer;
+}
