@@ -139,8 +139,19 @@ p {
     width: 100%;
 }
 
-.lado_derecho img {
+.lado_derecho .imagen_credit_card {
     width: 500px;
+}
+
+.lado_derecho .imagen_scroll_down {
+    width: 50px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 45px;
+    transform: rotate(320deg);
+    position: absolute;
+    top: 20%;
+    right: 40%;
 }
 
 .imagenFlechas {
