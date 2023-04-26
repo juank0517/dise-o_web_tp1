@@ -79,7 +79,7 @@ button.marcado {
 .lado_izquierdo {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
 }
 
 .fila {
@@ -136,7 +136,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 50%;
 }
 
 .lado_derecho .imagen_credit_card {
